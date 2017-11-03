@@ -1,4 +1,4 @@
-# sedoku
+# sedoku verifier
 
 My take on an interviewing favorite.  
 
@@ -13,3 +13,5 @@ The approach here is:
 ###Note 
 
 The traverser functions are there to define the arithmentic used to pull out the element from the original board representation (a string) corresponding to the major and minor traversal indexes.  A major index would be for example a row numbers, and minor one would be the element inside the row.
+
+Also note that this is a verifier, not a solver.  
